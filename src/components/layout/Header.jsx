@@ -176,7 +176,7 @@ export default function Header({
               className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-left"
             >
               <img
-                src={currentUser?.avatar || 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80'}
+                src={currentUser?.avatar || 'https://media.licdn.com/dms/image/v2/D4D35AQEIuwCCl35EVA/profile-framedphoto-shrink_100_100/B4DZ5jWE3qG4Ao-/0/1779783192282?e=1795158000&v=beta&t=dTFBCD-ltU65e3-01--mFb6i9wTo3rjvTLyAnhQf7MI'}
                 alt={currentUser?.name || 'Admin'}
                 className="w-7 h-7 rounded-full object-cover border border-slate-300 dark:border-slate-700"
               />
